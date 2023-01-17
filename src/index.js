@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import  ReactDOM  from "react-dom/client";
+import Header from "./App";
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Header1 from "./grid.js";
+import Section from "./topoffers";
+import Index from "./topoffers";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+let element = document.getElementById('root');
+let element1 = ReactDOM.createRoot(element);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+element1.render(
+  <>
+    <Header />
+    <Header1 />
+    <Section />
+    <Index />
+  </>
+)

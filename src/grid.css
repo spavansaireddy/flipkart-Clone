@@ -1,0 +1,12 @@
+.map{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    margin: 1.5px;
+    padding: 10px;
+    gap: 2rem;
+    box-shadow: 0px 0px 2px 1px rgb(151, 151, 151);
+}
+.map :hover{
+    cursor: pointer;
+    color:rgb(18, 177, 241);
+}
